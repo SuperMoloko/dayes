@@ -1,0 +1,90 @@
+body{
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vw;
+    position: relative;
+}
+
+main{
+    display:flex;
+    justify-content:space-around;
+}
+
+
+.card{
+    width:15vw;
+    height:50vh;
+    background-color:antiquewhite;
+    padding:15px;
+}
+
+
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+
+.osnova{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    margin-top:50px;
+}
+
+.osnova img{
+    margin-right:35px;
+}
+
+
+.o-text{
+    padding-top:20px;
+}
+
+.o-text h1{
+    font-size:32px;
+    font-weight:600;
+}
+
+.o-text p{
+    padding-top:10px;
+}
+
+.bottom{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding-top:50px;
+}
+
+.osnova button{
+    color:white;
+    font-weight:600;
+    width:7vw;
+    height:3vh;
+    margin-top:40px;
+    border-radius:10px;
+    margin-left:60px;
+}
+
+.line{
+    width:5vw;
+    height:1vh;
+    background-color:black;
+    border-radius:15px;
+}
+
+
+.bt{
+    background-color:green;
+}
+
+.bt1{
+    background-color:blue;
+}
+
+.bt2{
+    background-color:pink;
+}
